@@ -1,7 +1,7 @@
 <h1>
 <p align="center">
 
-		<a target="blank">THE CHALLENGE</a>
+		THE CHALLENGE
 	
 </p>
 </h1>
