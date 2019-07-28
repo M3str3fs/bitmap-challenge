@@ -10,7 +10,7 @@ distance between two pixels p1=(i1,j1) and p2=(i2,j2) is defined as d(p1,p2)=|i1
 </h1>
 
 <p>
-<h2>
+<body>
 Write a program which:
 ● reads the description of the bitmap from the standard input;
 ● for each pixel, computes the distance to the nearest white;
@@ -26,19 +26,19 @@ Output
 In the i-th line for each test case, 1<=i<=n, there should be written m integers f(i,1),...,f(i,m)
 separated by single spaces, where f(i,j) is the distance from the pixel (i,j) to the nearest white
 pixel. Example:
+<sub>
 Input:
 1
 3 4
 0001
 0011
 0110
+</sub>
 Output
 3 2 1 0
 2 1 0 0
 1 0 0 1
-</h2>
-  
-
+</body>
 
 ## Description
 
