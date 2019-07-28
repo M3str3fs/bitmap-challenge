@@ -1,4 +1,7 @@
-THE CHALLENGE 
+<p align="center">
+  <a target="blank">THE CHALLENGE</a>
+</p>
+
 
 Task
 There is given a rectangular bitmap of size n*m. Each pixel of the bitmap is either white or
