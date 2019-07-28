@@ -1,16 +1,21 @@
-<p align="center">
-  <a target="blank">THE CHALLENGE</a>
-</p>
-
 <h1>
+<p align="center">
+
+		<a target="blank">THE CHALLENGE</a>
+	
+</p>
+</h1>
+
+<h3>
 Task
 There is given a rectangular bitmap of size n*m. Each pixel of the bitmap is either white or
 black, but at least one is white. The pixel in i-th line and j-th column is called the pixel (i,j). The
 distance between two pixels p1=(i1,j1) and p2=(i2,j2) is defined as d(p1,p2)=|i1-i2|+|j1-j2|.
-</h1>
+</h3>
 
 <p>
 <body>
+<pre>
 Write a program which:
 ● reads the description of the bitmap from the standard input;
 ● for each pixel, computes the distance to the nearest white;
@@ -26,6 +31,7 @@ Output
 In the i-th line for each test case, 1<=i<=n, there should be written m integers f(i,1),...,f(i,m)
 separated by single spaces, where f(i,j) is the distance from the pixel (i,j) to the nearest white
 pixel. Example:
+"
 <sub>
 Input:
 1
@@ -38,6 +44,7 @@ Output
 3 2 1 0
 2 1 0 0
 1 0 0 1
+</pre>
 </body>
 
 ## Description
@@ -76,3 +83,16 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Support
+
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+  Nest is [MIT licensed](LICENSE).
