@@ -1,7 +1,7 @@
 <h1>
 <p align="center">
 
-				THE BITMAP CHALLENGE
+		THE BITMAP CHALLENGE
 	
 </p>
 </h1>
