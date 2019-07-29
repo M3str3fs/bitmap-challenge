@@ -1,7 +1,7 @@
 import { Controller, Get, Res, HttpStatus } from '@nestjs/common';
 import { BfsExampleService } from './bfs-example.service';
 import { Response } from 'express';
-import { inputToBitmap, outputToBitmap } from 'src/cummon';
+import { inputToBitmap, outputToBitmap } from 'src/common';
 import { example3x4 } from './example3x4-constant';
 
 @Controller('v1/bfs-example')
