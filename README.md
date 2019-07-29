@@ -70,6 +70,10 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Endpoint to request the service BFS
+```
+http://localhost:3000/v1/bfs-example
+```
 ## Test
 
 ```bash
